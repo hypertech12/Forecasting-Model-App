@@ -12,5 +12,7 @@ This Streamlit app simulates and compares two predictive financial models (Model
 - **Visualization**:
   - **Scatterplot** comparing both predictions against actual closing prices.
   - **Data Table** preview of processed results.
+## Open in Streamlit
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rcforecastingmodel.streamlit.app/)
 
 
