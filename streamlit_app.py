@@ -117,7 +117,7 @@ def main():
             st.write("Predictions simulated.")
             
         with st.spinner("Splitting traffic..."):
-            data = split_trafic(data)
+            data = split_traffic(data)
             st.write("Traffic split completed.")
             
         with st.spinner("Running experiment..."):
