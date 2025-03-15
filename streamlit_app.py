@@ -145,6 +145,8 @@ def main():
         ax.set_xlabel("Date")
         ax.set_ylabel("Price")
         ax.set_title("Scatterplot of Predictions vs. Actual Closing Price")
+        # Set x-axis limits to the selected start and end dates
+        ax.set_xlim(start_date, end_date)
         ax.legend()
         st.pyplot(fig)
 
